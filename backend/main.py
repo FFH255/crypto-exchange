@@ -127,17 +127,17 @@ async def initialize_centers():
     certificationCenter1 = CertificationCenter("Первый сертификационный центр")
     certificationCenters["Первый сертификационный центр"] = certificationCenter1
 
-    certificationCenter2 = CertificationCenter("Второй сертификационный центр")
-    certificationCenters["Второй сертификационный центр"] = certificationCenter2
+    # certificationCenter2 = CertificationCenter("Второй сертификационный центр")
+    # certificationCenters["Второй сертификационный центр"] = certificationCenter2
 
-    certificationCenter3 = CertificationCenter("Третий сертификационный центр")
-    certificationCenters["Третий сертификационный центр"] = certificationCenter3
+    # certificationCenter3 = CertificationCenter("Третий сертификационный центр")
+    # certificationCenters["Третий сертификационный центр"] = certificationCenter3
 
-    certificationCenter4 = CertificationCenter("Четвертый сертификационный центр")
-    certificationCenters["Четвертый сертификационный центр"] = certificationCenter4
+    # certificationCenter4 = CertificationCenter("Четвертый сертификационный центр")
+    # certificationCenters["Четвертый сертификационный центр"] = certificationCenter4
 
-    certificationCenter2.register_from_center(certificationCenter1)
-    certificationCenter3.register_from_center(certificationCenter1)
+    # certificationCenter2.register_from_center(certificationCenter1)
+    # certificationCenter3.register_from_center(certificationCenter1)
 
     return {
         "message": "OK"
