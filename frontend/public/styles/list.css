@@ -1,0 +1,27 @@
+.list {
+  display: grid !important;
+  gap: 1rem !important;
+  align-items: start !important;
+}
+
+.item {
+  display: grid !important;
+  gap: 1rem !important;
+  padding: 1.5rem !important;
+  align-items: start !important; 
+}
+
+.item_hoverable:hover {
+  cursor: pointer;
+  border-color: var(--main);
+}
+
+.item__title {
+  color: var(--contrast) !important;
+}
+
+.item__buttons {
+  display: flex;
+  gap: .4rem;
+  margin-block: .3rem;
+}
